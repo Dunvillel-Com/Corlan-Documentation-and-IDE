@@ -1,0 +1,139 @@
+/this is a comment
+/comments start with a slash
+
+
+/its a good idea to start with these
+clear mem
+clear ui
+/they clear the memory and screen
+
+
+/these do math and logic
+add
+subtract
+multiply
+divide
+check equal
+/you have to have numbers in @1 and @2
+/for these to work
+
+/another useful function is domath()
+/this runs the math function specified
+/by the data given.
+/here is the list in order of functions:
+/sin, cos, tan, asin, acos, atan
+/ln, log, e**, 10**, abs
+
+
+/to make math easier you can use these
+add [1] to [2]
+multiply [1] by [2]
+/these use memory values
+add (1) to [2]
+multiply [1] by (10)
+/these use a memory value and a number
+/[] are for memory, alu and shift
+/() are for number inputs
+
+/to set items use setto
+set [#1] to [@3]
+set [#24] to (3.15)
+/$ means shift and @ means alu
+/and # means memory, but you dont have
+/to put it, it just looks good
+
+/some inputs are actual number inputs
+/input sets shift to a number you set
+input (1.24)
+/and the first number in add to
+add (4.02) to [1]
+/you can only use 4 digits for numbers
+
+
+/you can output memory values as shown
+output [1]
+output [23]
+output [$]
+output [@3]
+/or you can output numbers like this
+output (1)
+output (23)
+output (1.47)
+
+
+/you can also draw values as shown
+draw [1]
+draw [204]
+draw [$]
+draw [@3]
+/or you can draw number values
+draw (1)
+draw (12)
+draw (413)
+/it cant draw decimals though
+
+
+/this is a wrapper
+wrap next () lines
+/it skips the next # of
+/lines unless the shift ($)
+/is equal to 1
+
+
+/here is a full list of commands
+input ()
+add () to []
+add [] to []
+set [] to ()
+set [] to []
+multiply [] by ()
+multiply [] by []
+add
+subtract
+multiply
+divide
+do math ()
+check equal
+check greater
+check less
+mod
+if or
+if and
+if xor
+pause ()
+output ()
+output []
+repeat last () for ()
+jump to ()
+clear ui
+clear mem
+draw ()
+draw []
+
+/you can use custom commands
+/by typing import function,
+/and there are some base functions
+/you can import with the arrow button
+/on the menu
+
+
+/if a command is invalid it will
+/look like this_example
+
+
+/to finish a program, type end
+/then hit enter to continue programming
+
+/do not run this program on a computer
+/it will cause problems
+
+/come helpful commands you can also
+/use are insert font, font type 2,
+/clear all, and copy and paste program.
+/these are only for use in the editor, they
+/dont affect the program itself
+
+/if your workspace is getting a bit cluttered,
+/you can use macros, which store code
+/that can be called using macro(#)
+/there are only 6 macros at the moment
